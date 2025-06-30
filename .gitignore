@@ -6,8 +6,9 @@ Makefile
 !rules.yml
 *.txt
 !requirements.txt
-*.sh
-!setup.sh
 *.py
 !__init__.py
 __pycache__
+*.sh
+!setup.sh
+!run.sh

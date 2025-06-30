@@ -26,8 +26,8 @@ echo "Virtual environment activated"
 
 if [ -f "$REQUIREMENTS" ]; then
     echo "Installing dependencies..."
-    python -m pip install --upgrade pip
-    pip install -r requirement.txt
+    # python -m pip install --upgrade pip
+    pip install -r "$REQUIREMENTS"
     if [ $? -ne 0 ]; then
         echo "Error: Failed to install dependencies"
         deactivate
