@@ -3,7 +3,7 @@ A fun taling mirror halloween project
 
 ## Downloading
 
-in a terminal, run `git pull [repository link]`, where the repository link can by clicking the 'Code' button and copying the HTTPS address.
+in a terminal, run `git clone [repository link]`, where the repository link can by clicking the 'Code' button and copying the HTTPS address.
 
 ## Running the program
 
