@@ -1,0 +1,12 @@
+test_audio/
+tests
+test_scripts/
+Makefile
+*.yml
+!rules.yml
+*.txt
+!requirements.txt
+*.sh
+!setup.sh
+src/
+!src/__init__.py
