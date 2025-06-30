@@ -8,5 +8,6 @@ Makefile
 !requirements.txt
 *.sh
 !setup.sh
-src/
-!src/__init__.py
+*.py
+!__init__.py
+__pycache__
